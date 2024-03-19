@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("=====WELCOME TO OUR BANKING SERVICE====");
+        System.out.println("=====WELCOME TO OUR ATM ====");
         System.out.println("Enter your 'Name' and 'CustomerId' to access your Bank account:");
         String name=sc.nextLine();
         int  customerId=sc.nextInt();
@@ -109,7 +109,7 @@ class BankAccount{
 
         }while(option!='e');
 
-        System.out.println("Thank you for using our banking services");
+        System.out.println("Thank you for using our ATM services");
     }
 
 }
